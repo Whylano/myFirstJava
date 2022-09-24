@@ -2,7 +2,7 @@ public class SwitchExam {
         public static void main(String[] args){
             //switch, vase, default, break
 
-            int value =2;
+            int value = 2;
 
             switch (value){
                 case 1:
