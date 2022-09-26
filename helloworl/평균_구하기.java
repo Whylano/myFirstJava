@@ -7,11 +7,10 @@ public class 평균_구하기 {
                     sum += arr[i];
                 }
 
-                double answer = (double) sum / arr.length;  //c sum/배열의 길이를 나누어 평균값을 내준다.
-                                                            // 여기서answer타입이 double형이기 때문에 double으로 바꿔준다
+                double answer = (double) sum / arr.length;  //c sum배열의 길이를 나누어 평균값을 내준다.
+                                                            // 여기서 answer타입이 double형이기 때문에 double으로 바꿔준다
                 return answer;
             }
-
         }
     }
 }
