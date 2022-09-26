@@ -10,10 +10,10 @@ public class CarExam {
         c2.number = 1111;
 
         System.out.println(c1.name);
-        System.out.print(c1.number);
+        System.out.println(c1.number);
 
-        System.out.print(c2.name);
-        System.out.print(c2.number);
+        System.out.println(c2.name);
+        System.out.println(c2.number);
 
 
 
