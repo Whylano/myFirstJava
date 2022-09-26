@@ -27,7 +27,20 @@ class Solution{
         answer[i][j] += arr2[i][j];
         }
     }
-    return answer;
+    return answer; //
     }
+}
+ */
+/* 또 다른 사람의 Solution
+class Solution {
+  public int[][] solution(int[][] arr1, int[][] arr2) {
+		int[][] arr = new int[arr1.length][arr1[0].length]; // 1.두 행렬은 행과 열의 크기가 같음으로 임의로 한 배열의 크기로 배열을 선언한다
+		for(int i=0; i<arr1.length; i++) { // 2. 행렬의 행 만큼 반복한다.
+			for(int j=0; j<arr1[0].length; j++) { // 3. 행렬의 열 만큼 반복한다.
+				arr[i][j] = arr1[i][j] + arr2[i][j]; // 4.각 행렬의 index의 값을 더해 새로운 행렬의 index에 더한다.
+			}
+		}
+		return arr;
+	}
 }
  */
