@@ -16,7 +16,7 @@ public class 내적 {
         }
     }
 }
-/*
+/*best solution
 import java.util.stream.IntStream;
 
 class Solution {
