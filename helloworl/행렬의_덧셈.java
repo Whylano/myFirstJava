@@ -1,6 +1,8 @@
+import  java.util.Scanner;
 public class 행렬의_덧셈 {
     public static void main(String[] args) {
         class Solution {
+            Scanner sc = new Scanner(System.in);
             //입출력 결과를 보면 이차원 배열이 순서대로 더해져 결과값이 나타나는 규칙을 찾아낼 수 있다.
             // 이 규칙과 중복 for문을 알고 있다면 풀기 쉬운 문제이다
             public int[][] solution(int[][] arr1, int[][] arr2) {
