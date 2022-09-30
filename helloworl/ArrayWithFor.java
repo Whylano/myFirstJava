@@ -7,7 +7,7 @@ public class ArrayWithFor {
         iarray[1] = 2;
 
         System.out.println(iarray.length);
-        for (int i = 0; i < iarray.length; i++) {  //iarray.length는 배열의 rlfdl를 출력해준다
+        for (int i = 0; i < iarray.length; i++) {  //iarray.length는 배열의 길이를 출력해준다
             iarray[i] = i + 1;                     //i라는 인덱스로 자동으로 1씩 증가하게 한다.
                                                     //해당 배열에 증가시켜줄 예정입니다
                                                     //따라 배열에 1부터 100까지 값을 넣습니다.

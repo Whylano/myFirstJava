@@ -1,5 +1,6 @@
+import java.util.*;
 public class 자연수_뒤집어_배열로_만들기 {
-    public static void main(String[] args){
+
         class Solution {
             public int[] solution(long n) {
 
@@ -18,12 +19,13 @@ public class 자연수_뒤집어_배열로_만들기 {
                     answer[i] = (int)(num % 10);
                     num /= 10;
                 }
+                System.out.print(answer);
 
                 return answer;
             }
         }
     }
-}
+
 //문자열 뒤집기
 //StringBuilder sb.reverse()
 //

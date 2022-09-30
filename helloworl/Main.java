@@ -1,21 +1,20 @@
-import java.util.Scanner;
-import java.util.ArrayList;
+import  java.util.*;
 public class Main {
+        public int solution(int[] arr1) {
+            int sum = 0;
 
-    public String solution(int n){
-        String answer = String.valueOf(n);
-        char[] a = answer.toCharArray();
-        int[] b = new int[answer.length()];
-        for(int i=answer.length()-1;i>=0;i--) {
+            for (int i : arr1) {
 
-            b[answer.length()-1-i] = answer.charAt(i)-'0';
+                sum++ = i;
+            }
+                    return sum  ;
+
         }
 
-        return answer;
+        public static void main(String[] args) {
+            Main method = new Main();
+            int[] arr1 = {1,3,5,9,2,4,8,0};
+            System.out.println(method.solution(arr1));
+        }
     }
-    public static void main(String[] arg){
-        Main method =new Main();
-        System.out.println(method.solution(718253));
-    }
-}
 
